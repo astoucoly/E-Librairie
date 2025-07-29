@@ -1,0 +1,181 @@
+body{
+    background-color: rgb(235, 221, 203);
+}
+.contrainer{
+    max-width: 100px;
+    margin: auto;
+    padding: 20px;
+}
+p{
+    margin: 5px;
+    font-size: 25px;
+}
+nav{
+    padding: 5px;
+    background-color:  rgb(221, 168, 104);
+
+}
+nav ul{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    list-style: none;
+}
+nav ul li{
+    display: inline;
+    margin: 20px;
+}
+nav ul li a {
+    color:  black;
+    text-decoration: none;
+    font-size: 25px;
+
+}
+nav ul li a:hover{
+    text-decoration: underline;
+}
+a:hover{
+    color: blue;
+    text-decoration: none;
+    border-radius: 5PX;
+    background-color: black;
+}
+
+.welcome{
+    background-color:  rgb(221, 168, 104);
+    border: solid #d2b48c;
+    padding: 30px;
+    margin: 20px;
+    text-align: center;
+    border-radius: 20px;
+    
+}
+.welcome a  {
+    background-color:blue;
+    color: white;
+    border: solid bisque;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 20px;
+}
+.welcome button{
+    background-color:  rgb(221, 168, 104);
+    color:blue;
+    padding: 2px;
+    display: inline-block;
+    text-decoration: none;
+}
+.welcome button:hover{
+    background-color:black;
+    color: white;
+    padding: 10px;
+}
+.welcome h2{
+    font-size: 50PX;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.welcome p{
+    font-size: 12px;
+    margin-bottom: 12px;
+}
+.section-title {
+    text-align: center;
+}
+.featured-section{
+    margin: 20px;
+}
+.featured-books{
+    display: grid;
+    align-items: center;
+    flex-direction: column;
+    grid-column:auto ;
+    gap: 5px;
+
+}
+.book-card{
+    background-color: rgb(221, 168, 104);
+    border:  2ps solid #d2b48c;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 20px;
+    text-align: center;
+    box-shadow: 5px  20px 20px rgb(red, green, blue);
+    
+}
+.book-cover{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    color: white;
+    box-shadow: 0 20px 30px black; 
+    
+    
+
+}
+.book-cover img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-right: 20px;
+    
+    
+}
+.book-cover img:hover{
+    background-color: black;
+    padding: 15px;
+
+}
+.book-info{
+    padding: 25px;
+}
+.book-title{
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:blue;
+
+}
+.book-author{
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: darkblue;
+}
+
+.book-description{
+    font-size: 16px;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+    align-items: center;
+}
+.book-price{
+    font-size: 18px;
+    color: green;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+button{
+    padding: 16px;
+    border: none;
+    background-color: blue;
+    color: white;
+    border-radius: 5px;
+    gap: 10px;
+    
+}
+button:hover{
+    background-color: darkblue;
+    padding: 20px;
+}
+footer{
+    background-color: bisque;
+             margin-top: 3px;
+            padding: 25px;
+            text-align: center;
+            color: #666;
+}
+            

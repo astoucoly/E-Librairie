@@ -1,0 +1,222 @@
+body {
+       background-color:  rgb(235, 221, 203);
+          min-height: 100px;
+         display: flex;
+         flex-direction: column;
+        }
+
+
+
+.nav {
+            max-width: 1200px;
+            margin: auto;
+            padding: 2px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+
+.nav-links {
+            display: flex;
+            list-style: none;
+            gap: 2px;
+        }
+
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+          
+        }
+
+        .nav-links a:hover {
+            opacity: 0.8;
+        }
+
+        .main-content {
+            flex: 1;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+        }
+
+        .contact-container {
+            background:  rgb(221, 168, 104);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 3px;
+            box-shadow: 0 20px 10px black;
+            max-width: 600px;
+            width: 100%;
+            
+        }
+
+        
+        
+
+        .contact-header {
+            text-align: center;
+            margin-bottom: 2px;
+        }
+
+        .contact-header h1 {
+            color:black;
+            font-size: 50px;
+            margin-bottom: 10px;
+            color: blue;
+            
+        }
+
+        .contact-header p {
+            color: black;
+            font-size: 16px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        .form-group label {
+            display: block;
+            margin-bottom: 15px;
+            color: black;
+            font-weight: 500px;
+        }
+
+        .form-group input,
+        .form-group textarea,
+        .form-group select {
+            width: 400px;
+            padding: 10px;
+            border: 2px solid white;
+            border-radius: 10px;
+            font-size: 16px;
+           background-color:  white;
+        }
+
+        .form-group input:focus,
+        .form-group textarea:focus,
+        .form-group select:focus {
+            outline: none;
+            border-color:blue;
+            box-shadow:  3px black;
+            transform: none;
+        }
+
+        .form-group textarea {
+            resize: vertical;
+            min-height: 120px;
+        }
+
+        .form-row {
+            display: grid;
+            grid-template-columns: max-content;
+            gap: 5px;
+        }
+
+        .submit-btn {
+            width: 100%;
+            padding: 10px 20px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .submit-btn:hover {
+            transform: none;
+            box-shadow:  10px 25px rgba(102, 126, 234, 0.3);
+        }
+
+        .submit-btn:active {
+            transform: translate(2px);
+            box-shadow: 25px;
+        }
+
+        .contact-info {
+            margin-top: 20px;
+            padding-top: 20px;
+            border-top: 1px solid white;
+            text-align: center;
+        }
+
+        .contact-info h3 {
+            color:black;
+            margin-bottom: 10px;
+        }
+
+        .info-grid {
+            display: grid;
+            grid-template-columns: repeat;
+            gap: 5px;
+            margin-top: 5px;
+        }
+
+        .info-item {
+            padding: 10px;
+            background: white;
+            border-radius: 10px;
+            transition: transform 0.3s ;
+        }
+
+        .info-item:hover {
+            transform: translateY(3px);
+        }
+
+        .info-item strong {
+            color: #667eea;
+        }
+
+        .success-message {
+            display: none;
+            background: #d4edda;
+            color: #155724;
+            padding: 1rem;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #c3e6cb;
+        }
+
+        .error-message {
+            display: none;
+            background: #f8d7da;
+            color: #721c24;
+            padding: 10px;
+            border-radius: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #f5c6cb;
+        }
+        .info-grid
+        .info-item
+        .info-item:hover{
+            display: grid;
+            grid-template-columns: 25px 25px 25px 25px;
+            padding-left: 25px;
+            
+
+        }
+        .payement h3{
+            text-align: center;
+
+        }
+        .payement-methods {
+            display: grid;
+            grid-template-columns: 25% 25% 25% 25%;
+            padding-left: 50px;
+        
+        }
+        .payement-methods img{
+            width: 50px;
+            border-radius: 20px;
+            box-shadow: #667eea;
+        }
+        
+
+        
